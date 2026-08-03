@@ -10,7 +10,7 @@ assignees: ""
 
 Thank you for taking the time to use **StackGuide v1.0**.
 
-Your feedback is incredibly valuable and will directly influence future releases of the application. Whether your experience was great or you found areas that need improvement, I'd love to hear your thoughts.
+Your feedback will directly influence future versions of the application. Whether you discovered a bug, have a feature idea, or simply want to share your experience, I'd love to hear from you.
 
 Please answer as many questions as you'd like.
 
