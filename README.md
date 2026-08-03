@@ -1,36 +1,226 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 StackGuide
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+## Build Smarter. Choose the Right Tech Stack in Minutes
+
+**StackGuide** helps developers, founders, and technical teams choose the right technology stack through a guided six-question assessment. Instead of spending hours researching frameworks, databases, cloud platforms, and deployment strategies, StackGuide provides practical recommendations tailored to each project.
+
+**🌐 Live Demo:** https://stackguide.vercel.app
+
+</div>
+
+---
+
+## Executive Overview
+
+StackGuide is a lightweight decision-support application that helps developers select an appropriate technology stack based on project requirements.
+
+The application demonstrates how a simple rule-based recommendation engine can provide meaningful architectural guidance without relying on artificial intelligence or complex infrastructure.
+
+The primary goal of Version 1.0 was to validate the product idea by delivering a fully functional MVP that users could access through a public web application.
+
+---
+
+# Business Problem
+
+Selecting a technology stack has become increasingly difficult.
+
+Developers must evaluate:
+
+- Frontend frameworks
+- Backend technologies
+- Databases
+- Authentication providers
+- Cloud platforms
+- Hosting options
+- CI/CD pipelines
+- Architecture patterns
+
+This often leads to unnecessary research, inconsistent decisions, and analysis paralysis.
+
+---
+
+# Solution
+
+StackGuide simplifies this process by asking six guided questions about a project.
+
+Based on the responses, it recommends:
+
+- Frontend
+- Backend
+- Database
+- Authentication
+- Hosting
+- Cloud Platform
+- CI/CD
+- Container Strategy
+- Architecture Pattern
+
+Each recommendation includes a short explanation describing why it was selected.
+
+---
+
+# Live Demo
+
+**Production Website**
+
+https://stackguide.vercel.app
+
+---
+
+# Screenshots
+
+## Landing Page
+
+![Landing Page](screenshots/01-landing-page.png)
+
+---
+
+## Assessment
+
+![Assessment](screenshots/02-questionnaire.png)
+
+---
+
+## Recommendation Dashboard
+
+![Recommendation Dashboard](screenshots/03-recommendation-dashboard.png)
+
+---
+
+# Features
+
+- Modern responsive interface
+- Interactive six-question assessment
+- Rule-based recommendation engine
+- Technology explanations
+- Clipboard copy support
+- Mobile-friendly design
+- Public deployment using Vercel
+
+---
+
+# Technology Stack
+
+| Category | Technology |
+|-----------|------------|
+| Framework | Next.js |
+| Language | TypeScript |
+| UI | React |
+| Styling | Tailwind CSS |
+| Deployment | Vercel |
+| Source Control | GitHub |
+
+---
+
+# How It Works
+
+```text
+Landing Page
+      │
+      ▼
+Start Assessment
+      │
+      ▼
+Six Guided Questions
+      │
+      ▼
+Recommendation Engine
+      │
+      ▼
+Results Dashboard
+      │
+      ▼
+Copy Results
+```
+
+---
+
+# Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/dlittle-source/stackguide.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Lessons Learned
 
-To learn more about Next.js, take a look at the following resources:
+One of the most important engineering decisions for Version 1.0 was intentionally using a rule-based recommendation engine instead of an AI-powered solution.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This approach:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Reduced development complexity
+- Eliminated API costs
+- Produced consistent recommendations
+- Allowed the MVP to be completed, tested, and deployed in a single development session
 
-## Deploy on Vercel
+The project also reinforced the importance of limiting scope. By focusing only on the core functionality, StackGuide progressed from an idea to a production-ready application without unnecessary features.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Future Roadmap
+
+Future enhancements may include:
+
+- AI-powered recommendations
+- Architecture diagram generation
+- Cost estimation
+- Export to PDF
+- Saved assessments
+- User accounts
+- Team collaboration
+
+---
+
+# Version History
+
+## Version 1.0
+
+- Initial public release
+- Professional landing page
+- Interactive assessment
+- Rule-based recommendation engine
+- Recommendation dashboard
+- Clipboard copy functionality
+- GitHub integration
+- Vercel deployment
+
+---
+
+# Author
+
+**Demarko Little**
+
+Cloud Platform Engineer | DevOps Engineer | Enterprise Infrastructure Engineer
+
+GitHub: https://github.com/dlittle-source
+
+LinkedIn: https://linkedin.com/in/demarkol
+
+---
+
+## License
+
+This project is licensed under the MIT License.
