@@ -69,6 +69,16 @@ https://stackguide.vercel.app
 
 ---
 
+# Share Feedback
+
+StackGuide v1.0 is currently being evaluated through real user feedback.
+
+After completing the assessment, please share your experience, recommendation results, or improvement ideas through the repository's GitHub Issues page.
+
+[Submit StackGuide Feedback](https://github.com/dlittle-source/stackguide/issues/new/choose)
+
+---
+
 # Screenshots
 
 ## Landing Page
